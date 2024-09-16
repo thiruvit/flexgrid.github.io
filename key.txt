@@ -1,0 +1,10 @@
+CSS Flexbox Layout Module
+
+Before the Flexbox Layout module, there were four layout modes:
+
+1.Block, for sections in a webpage
+2.Inline, for text
+3.Table, for two-dimensional table data
+4.Positioned, for explicit position of an element
+Definition:
+          The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
