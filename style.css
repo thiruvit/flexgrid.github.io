@@ -1,0 +1,24 @@
+/*Creating flex container*/
+.flex-container{
+    display: flex;
+    background-color:black;
+}
+.flex-container > div{
+    background-color: white;
+    background:#E50914;
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+/*flex direction column*/
+.flex-dir-col{
+    display: flex;
+    background-color:black;
+    flex-direction: column;
+}
+.flex-dir-col > div{
+    margin: 10px;
+    padding:10px;
+    background-color:#E50914;
+    font-size: 24px;
+}
