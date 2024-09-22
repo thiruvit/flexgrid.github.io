@@ -1,24 +1,235 @@
+/*Flex container*/
 /*Creating flex container*/
 .flex-container{
     display: flex;
-    background-color:black;
+    background-color:goldenrod;
 }
 .flex-container > div{
     background-color: white;
-    background:#E50914;
+    background:rgba(255, 255, 255, 0.8);
     margin: 10px;
     padding: 10px;
     font-size: 24px;
 }
+/*flex container property-direction*/
 /*flex direction column*/
 .flex-dir-col{
     display: flex;
-    background-color:black;
+    background-color:goldenrod;
     flex-direction: column;
 }
 .flex-dir-col > div{
     margin: 10px;
     padding:10px;
-    background-color:#E50914;
+    background-color:rgba(255, 255, 255, 0.8);
     font-size: 24px;
 }
+/*flex direction column-reverse*/
+.flex-dir-col-rev{
+    display: flex;
+    background-color: goldenrod;
+    flex-direction: column-reverse;
+}
+.flex-dir-col-rev > div{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 40px;
+    font-size: 24px;
+}
+/*flex direction row*/
+.flex-dir-col-row{
+    display: flex;
+    background-color: goldenrod;
+    flex-direction: row;
+}
+.flex-dir-col-row > div{
+    background-color:rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 24px;
+}
+/*flex direction row-reverse*/
+.flex-dir-col-row-rev{
+    display: flex;
+    background-color: goldenrod;
+    flex-direction: row-reverse;
+}
+.flex-dir-col-row-rev > div{
+    background-color:rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 24px;
+}
+.jus-cen{
+        display: flex;
+        justify-content: center;
+        background-color: goldenrod;
+      }
+      
+.jus-cen > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+.jus-start{
+        display: flex;
+        justify-content: flex-start;
+        background-color: goldenrod;
+      }
+      
+.jus-start > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+.jus-end{
+        display: flex;
+        justify-content: flex-end;
+        background-color: goldenrod;
+      }
+      
+.jus-end > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+.jus-space-around{
+        display: flex;
+        justify-content: space-around;
+        background-color: goldenrod;
+      }
+      
+.jus-space-around > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+.jus-space-even{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: goldenrod;
+      }
+      
+.jus-space-even > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+.jus-space-bet{
+        display: flex;
+        justify-content: space-between;
+        background-color: goldenrod;
+      }
+      
+.jus-space-bet > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+.grid-column {
+        display: grid;
+        grid-template-columns: 350px 350px 350px 350px;
+        gap: 10px;
+        background-color:goldenrod;
+        padding: 10px;
+      }
+      
+.grid-column > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+.grid-row {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 80px 200px;
+        gap: 10px;
+        background-color: goldenrod;
+        padding: 10px;
+      }
+      
+.grid-row > div {
+        background-color:rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+.grid-even {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        gap: 10px;
+        background-color: goldenrod;
+        padding: 10px;
+      }
+      
+.grid-even > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+.grid-around {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        gap: 10px;
+        background-color:goldenrod;
+        padding: 10px;
+      }
+      
+.grid-around > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+.grid-bet {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        gap: 10px;
+        background-color: goldenrod;
+        padding: 10px;
+      }
+      
+.grid-bet > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+
+
